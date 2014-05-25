@@ -1,0 +1,42 @@
+#   ====================================================================================================
+#
+#   Description:
+#	------------
+#   Aliases and configuration for frequently accessed hosts
+#
+#	Contents:
+#   ---------
+#	1.	Host Access Tools
+#	2.	Host Access Aliases
+#
+#   ====================================================================================================
+
+
+#   ==============================
+#   1. HOST ACCESS TOOLS
+#   ==============================
+
+#	Tunelling
+#   ------------------------------------------------------------
+#	$1 username, $2 port
+
+tunnel () { ssh -l $1 localhost -p $2; }
+
+
+#   ==============================
+#   2. HOST ACCESS ALIASES
+#   ==============================
+
+#	Example alias definitions
+#   ------------------------------------------------------------
+
+#	alias dev01='ssh jsmith@12.34.56.78'
+#	alias test01='ssh jsmith@test01.ourawesomecompany.com'
+
+#	Example alias definitions for tunneling
+#   ------------------------------------------------------------
+
+#	alias bastion01='tunnel jsmith 12345'
+
+
+

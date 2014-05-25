@@ -1,0 +1,49 @@
+#   ====================================================================================================
+#
+#   Description:
+#	------------
+#   Command line profile configuration (Mac OS X) 
+#
+#	Contents:
+#   ---------
+#	1.	General Environment
+#	2.	Development Environment
+#
+#   ====================================================================================================
+
+
+#   ==============================
+#   1. GENERAL ENVIRONMENT
+#   ==============================
+
+#   Command Prompt
+#   ------------------------------------------------------------
+
+PS1="${IBLACK}[${WHITE}\t${IBLACK}] ${CYAN}\u${IBLACK}@${CYAN}\h${IBLACK}:${IGREEN}\w ${WHITE}\$ ${COLOR_OFF}"
+
+
+#   ==============================
+#   2. DEVELOPMENT ENVIRONMENT
+#   ==============================
+
+#   Apache
+#   ------------------------------------------------------------
+
+#   Tomcat
+#   ------------------------------------------------------------
+
+#   Git
+#   ------------------------------------------------------------
+
+#   Java
+#   ------------------------------------------------------------
+
+export JAVA_HOME=/System/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home
+export JRE_HOME=/System/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home
+
+PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME
+
+#   Mysql
+#   ------------------------------------------------------------
+
+
